@@ -1,0 +1,5 @@
+chrono
+daisyui
+docsify
+iife
+tailwindcss
