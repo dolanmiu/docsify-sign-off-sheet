@@ -56,66 +56,6 @@ declare var $docsify: any;
         tables.forEach((table) => {
           table.setAttribute("style", "display: table;");
         });
-
-        // allListItems.forEach(function (el, index) {
-        //   if (el.firstChild!.textContent!.endsWith(" +")) {
-        //     const wrapper = document.createElement("div");
-        //     const element = allListItems[index];
-
-        //     wrapper.setAttribute(
-        //       "id",
-        //       `accordion-content--${indexAccordionItemIndex}`
-        //     );
-        //     wrapper.classList.add("accordion-content-container");
-
-        //     Object.values(el.children).forEach(function (
-        //       childElement,
-        //       childIndex
-        //     ) {
-        //       if ((childElement as any).innerText.startsWith("!>")) {
-        //         (childElement as any).innerText = (
-        //           childElement as any
-        //         ).innerText.replace("!>", "");
-        //         childElement.classList.add("tip");
-        //       }
-
-        //       if (childIndex > 0) {
-        //         wrapper.appendChild(childElement);
-        //       }
-        //     });
-
-        //     el.appendChild(wrapper);
-
-        //     element!.parentElement!.classList.add("bg-blue-100");
-        //     element.classList.add("accordion");
-        //     element!.firstChild!.addEventListener("click", (e: Event) => {
-        //       if (
-        //         (e!.target as any).parentElement!.classList.contains("active")
-        //       ) {
-        //         (e!.target as any).parentElement!.classList.remove("active");
-        //       } else {
-        //         document.querySelectorAll("li").forEach(function (_el) {
-        //           if (_el.classList.contains("accordion")) {
-        //             _el.classList.remove("active");
-        //           }
-        //         });
-        //         (e!.target as any).parentElement!.classList.add("active");
-        //       }
-        //     });
-
-        //     if (indexAccordionItemIndex === 0) {
-        //       element.classList.add("active");
-        //     }
-
-        //     element!.firstChild!.textContent = (
-        //       element!.firstChild as any
-        //     ).textContent.substring(
-        //       0,
-        //       (element!.firstChild as any).textContent.length - 2
-        //     );
-        //     indexAccordionItemIndex++;
-        //   }
-        // });
       });
     },
     ...($docsify.plugins ? [$docsify.plugins] : []),
