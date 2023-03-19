@@ -2,6 +2,7 @@
   "name": "docsify-sign-off-sheet",
   "version": "1.0.0",
   "description": "",
+  "files": ["dist"],
   "main": "dist/index.iife.js",
   "scripts": {
     "dev": "vite",
