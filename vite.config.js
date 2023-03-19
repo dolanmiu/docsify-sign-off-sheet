@@ -8,7 +8,7 @@ export default defineConfig({
     lib: {
       entry: [resolve(__dirname, "src/main.ts")],
       name: "docsifySignOffSheet",
-      fileName: "docsify-sign-off-sheet",
+      fileName: "index",
       formats: ["iife"],
     },
     outDir: resolve(__dirname, "dist"),
