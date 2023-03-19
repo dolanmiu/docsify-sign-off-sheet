@@ -10,6 +10,7 @@
     "serve:dist": "http-server dist",
     "build": "tsc && vite build",
     "build:watch": "vite build --watch",
+    "prepublishOnly": "npm run build",
     "preview": "vite preview",
     "cspell": "cspell \"**\"",
     "prettier": "prettier -l .",
