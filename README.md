@@ -16,6 +16,16 @@ It works by setting two items on each documentation page:
 
 It is inspired by the Sign-Off Sheets used by cleaners in restrooms to ensure that the restroom is clean and ready for use.
 
+## Screenshots
+
+What's added:
+
+![](https://i.imgur.com/taFlnNR.png)
+
+When viewing the Sign-Off sheet:
+
+![](https://i.imgur.com/koSVb5G.png)
+
 ## Installation
 
 Add the `docsify-sign-off-sheet` plugin to your `index.html` after `docsify`. The plugin is available on `jsdelivr` (below), `unpkg`, and other CDN services that auto-publish `npm packages`.
