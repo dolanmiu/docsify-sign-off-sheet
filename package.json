@@ -2,7 +2,9 @@
   "name": "docsify-sign-off-sheet",
   "version": "1.0.0",
   "description": "",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "dist/index.iife.js",
   "scripts": {
     "dev": "vite",
@@ -19,6 +21,11 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dolanmiu/docsify-sign-off-sheet.git"
+  },
+  "homepage": "https://github.com/dolanmiu/docsify-sign-off-sheet",
   "devDependencies": {
     "autoprefixer": "^10.4.14",
     "cspell": "^6.30.0",
