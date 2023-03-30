@@ -1,5 +1,7 @@
 # docsify-sign-off-sheet 📝
 
+[![](https://data.jsdelivr.com/v1/package/npm/docsify-sign-off-sheet/badge)](https://www.jsdelivr.com/package/npm/docsify-sign-off-sheet)
+
 A docsify plugin to add sign-off sheets to your docs
 
 This plugin is an effort to create relevant, up to date documentation for your project. It is a simple plugin that adds a sign-off sheet to your docs. It is a simple way to ensure that your documentation is up to date and relevant.
