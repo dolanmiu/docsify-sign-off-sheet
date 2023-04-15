@@ -1,6 +1,7 @@
 chrono
 daisyui
 docsify
+dsos
 iife
 jsdelivr
 tailwindcss
